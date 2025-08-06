@@ -12,10 +12,12 @@
         <script>
             function sort(items) {
                 if (!Array.isArray(items)) return [];
-                if (items.length <= 1) return [items];
+                if (items.length <= 1) return items;
                 const median = Math.round((items.length - 1) / 2);
-                const left = items.slice(0, median);
-                const right = items.slice(median);
+                const left = sort(items.slice(0, median));
+                const right = sort(items.slice(median));
+
+                return merge(left, right);
             }
 
             function merge(left, right) {
