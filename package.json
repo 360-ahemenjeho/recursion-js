@@ -1,0 +1,22 @@
+{
+  "name": "recursion_101",
+  "version": "1.0.0",
+  "description": "recursion",
+  "main": "fib.js",
+  "scripts": {
+    "test": "echo \"Testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/360-ahemenjeho/recursion-js.git"
+  },
+  "keywords": [
+    "recursion"
+  ],
+  "author": "c8tor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/360-ahemenjeho/recursion-js/issues"
+  },
+  "homepage": "https://github.com/360-ahemenjeho/recursion-js#readme"
+}
